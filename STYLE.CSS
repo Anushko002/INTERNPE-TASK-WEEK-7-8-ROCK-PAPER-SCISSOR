@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.game-container {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 350px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.choice {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #007bff;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.choice:hover {
+  background: #0056b3;
+}
+
+.result {
+  margin: 20px 0;
+}
+
+#winner {
+  color: #333;
+  margin-top: 10px;
+}
+
+.scoreboard {
+  margin-top: 15px;
+  font-weight: bold;
+}
